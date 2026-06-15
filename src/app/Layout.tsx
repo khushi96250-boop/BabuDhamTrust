@@ -51,17 +51,16 @@ export function Layout() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
             {navigation.map((item) => (
-              <Link 
-                key={item.name} 
+              <Link
+                key={item.name}
                 to={item.href}
-                className={`text-sm font-medium transition-colors hover:text-[#A6192E] ${
-                  location.pathname === item.href ? "text-[#A6192E]" : "text-slate-600"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-[#A6192E] ${location.pathname === item.href ? "text-[#A6192E]" : "text-slate-600"
+                  }`}
               >
                 {item.name}
               </Link>
             ))}
-            <Link 
+            <Link
               to="/donate"
               className="bg-[#D4AF37] hover:bg-[#c4a132] text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-colors flex items-center gap-2"
             >
@@ -70,7 +69,7 @@ export function Layout() {
           </nav>
 
           {/* Mobile Menu Toggle */}
-          <button 
+          <button
             className="md:hidden p-2 text-slate-600"
             onClick={() => setIsMobileMenuOpen(true)}
           >
@@ -82,7 +81,7 @@ export function Layout() {
       {/* Mobile Nav */}
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: '100%' }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: '100%' }}
@@ -100,15 +99,14 @@ export function Layout() {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`text-xl font-medium p-4 rounded-xl ${
-                    location.pathname === item.href ? "bg-red-50 text-[#A6192E]" : "text-slate-800"
-                  }`}
+                  className={`text-xl font-medium p-4 rounded-xl ${location.pathname === item.href ? "bg-red-50 text-[#A6192E]" : "text-slate-800"
+                    }`}
                 >
                   {item.name}
                 </Link>
               ))}
               <div className="mt-8">
-                <Link 
+                <Link
                   to="/donate"
                   className="bg-[#D4AF37] text-white w-full px-6 py-4 rounded-xl text-lg font-semibold flex items-center justify-center gap-2"
                 >
@@ -136,10 +134,10 @@ export function Layout() {
               </span>
             </Link>
             <p className="text-slate-400 mb-6">
-              गरीबों की सेवा में सदैव तत्पर। <br/> Dedicated to social welfare, education, healthcare, and community development.
+              गरीबों की सेवा में सदैव तत्पर। <br /> Dedicated to social welfare, education, healthcare, and community development.
             </p>
           </div>
-          
+
           <div>
             <h3 className="text-white font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-4">
@@ -152,11 +150,11 @@ export function Layout() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-6">Our Focus</h3>
+            <h3 className="text-white font-semibold mb-6">Our Work</h3>
             <ul className="space-y-4">
-              <li>Health & Medical Camps</li>
-              <li>Free Education Initiatives</li>
-              <li>Women Empowerment</li>
+              <li>Flood Relief Programme</li>
+              <li>Siksham Program(Free Education for All)</li>
+              <li>Blanket Distribution Program</li>
               <li>Social Assistance Programs</li>
             </ul>
           </div>
@@ -166,7 +164,7 @@ export function Layout() {
             <ul className="space-y-4">
               <li className="flex gap-3">
                 <MapPin className="w-5 h-5 shrink-0 text-[#D4AF37]" />
-                <span>Head Office: Delhi, India<br/>Branch: Bihar, India</span>
+                <span>Head Office: Delhi, India<br />Branch: Bihar, India</span>
               </li>
               <li className="flex gap-3">
                 <Phone className="w-5 h-5 shrink-0 text-[#D4AF37]" />
