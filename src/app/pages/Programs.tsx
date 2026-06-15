@@ -1,5 +1,6 @@
+import { Link } from "react-router"
 import { Button } from "../components/ui/button"
-import { Heart, Handshake } from "lucide-react"
+import { Heart, Handshake, ArrowRight } from "lucide-react"
 
 type Program = {
   title: string
@@ -7,6 +8,7 @@ type Program = {
   description: string
   badge: string
   image: string
+  slug: string
 }
 
 const programs: Program[] = [
@@ -14,6 +16,7 @@ const programs: Program[] = [
     title: "Social Welfare",
     hindi: "सामाजिक कल्याण",
     badge: "Community",
+    slug: "social-welfare",
     description:
       "Providing essential support and dignity to rural families through community-led assistance programs.",
     image: "/programs/social-welfare.png",
@@ -22,6 +25,7 @@ const programs: Program[] = [
     title: "Education Support",
     hindi: "शिक्षा सहायता",
     badge: "Education",
+    slug: "education-support",
     description:
       "Empowering students with essential books, learning materials, and modern educational tools.",
     image: "/programs/education-support.png",
@@ -30,6 +34,7 @@ const programs: Program[] = [
     title: "Grain Support",
     hindi: "अनाज सहायता",
     badge: "Food Security",
+    slug: "grain-support",
     description:
       "Ensuring no family goes hungry through monthly distribution of grains and nutritional essentials.",
     image: "/programs/grain-support.png",
@@ -38,6 +43,7 @@ const programs: Program[] = [
     title: "Women Empowerment",
     hindi: "महिला सशक्तिकरण",
     badge: "Empowerment",
+    slug: "women-empowerment",
     description:
       "Providing vocational training and skill-building workshops to create sustainable livelihoods for rural women.",
     image: "/programs/women-empowerment.png",
@@ -46,6 +52,7 @@ const programs: Program[] = [
     title: "Menstrual Health",
     hindi: "मासिक स्वास्थ्य",
     badge: "Health",
+    slug: "menstrual-health",
     description:
       "Breaking taboos by providing health awareness and ensuring affordable hygiene access to women.",
     image: "/programs/menstrual-health.png",
@@ -54,6 +61,7 @@ const programs: Program[] = [
     title: "Girl Child Education",
     hindi: "बालिका शिक्षा",
     badge: "Education",
+    slug: "girl-child-education",
     description:
       "Building a brighter future for daughters of rural India through enrollment and long-term mentorship.",
     image: "/programs/girl-child-education.png",
@@ -62,7 +70,10 @@ const programs: Program[] = [
 
 function ProgramCard({ program }: { program: Program }) {
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-sm transition-shadow hover:shadow-md">
+    <Link
+      to={`/programs/${program.slug}`}
+      className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+    >
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
           src={program.image || "/placeholder.svg"}
@@ -77,8 +88,11 @@ function ProgramCard({ program }: { program: Program }) {
         <h3 className="font-serif text-xl font-bold text-foreground">{program.title}</h3>
         <p className="text-xs font-medium uppercase tracking-wide text-primary/70">{program.hindi}</p>
         <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{program.description}</p>
+        <div className="mt-3 flex items-center gap-1 text-sm font-semibold text-primary group-hover:gap-2 transition-all duration-200">
+          Learn More <ArrowRight className="size-4" />
+        </div>
       </div>
-    </article>
+    </Link>
   )
 }
 
@@ -92,7 +106,7 @@ export function Programs() {
           </h2>
           <p className="mt-2 font-serif text-xl text-primary/80">हमारे कार्यक्रम</p>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground text-pretty">
-            Bedakhani Trust is committed to transforming rural lives through dedicated, integrity-led grassroots work,
+            BabuDhamTrust is committed to transforming rural lives through dedicated, integrity-led grassroots work,
             ensuring every individual moves from scarcity to empowerment.
           </p>
           <div className="mx-auto mt-6 h-1 w-12 rounded-full bg-primary" />
