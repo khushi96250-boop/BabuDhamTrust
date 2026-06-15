@@ -34,7 +34,7 @@ export function About() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1586726370832-3440a511e479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWxwaW5nJTIwaGFuZHMlMjBjb21wYXNzaW9ufGVufDF8fHx8MTc4MDY2MTIzMHww&ixlib=rb-4.1.0&q=80&w=1080" 
+                src="public_folder/images/WhatsApp Image 2026-05-11 at 6.00.01 PM.jpeg" 
                 alt="Trust Activities" 
                 className="rounded-2xl shadow-md w-full h-[400px] object-cover"
               />
@@ -71,9 +71,9 @@ export function About() {
             <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 flex items-center justify-center">
               <Users className="w-8 h-8 text-slate-400" />
             </div>
-            <h3 className="text-xl font-bold mb-1">Founder Details</h3>
+            <h3 className="text-xl font-bold mb-1">Ajay Prakash Pathak</h3>
             <p className="text-[#A6192E] font-medium mb-4">Founder</p>
-            <p className="text-sm text-slate-600">The driving force behind the Trust, dedicating their life to social service and community building.</p>
+            <p className="text-sm text-slate-600">Babu Dham Trust has done continuous working in the area of Champaran & as well in many other states of India.. This institution is not only working to reach out to the poor, Dalits, minorities and women, but also oversees their better implementation and takes necessary action if there are any shortcomings.</p>
           </div>
           <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 text-center">
             <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 flex items-center justify-center">

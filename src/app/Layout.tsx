@@ -42,7 +42,7 @@ export function Layout() {
             <BabudhamLogo className="w-12 h-12 group-hover:scale-105 transition-transform" variant="full-color" />
             <div>
               <h1 className="text-xl md:text-2xl font-bold text-[#A6192E] tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
-                Babudham Trust
+                BabuDham Trust
               </h1>
               <p className="text-xs text-slate-500 uppercase tracking-widest font-semibold hidden sm:block">Empowering Communities</p>
             </div>
@@ -130,7 +130,7 @@ export function Layout() {
             <Link to="/" className="flex items-center gap-3 mb-6">
               <BabudhamLogo className="w-10 h-10" variant="white" />
               <span className="text-xl font-bold text-white tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
-                Babudham Trust
+                BabuDham Trust
               </span>
             </Link>
             <p className="text-slate-400 mb-6">

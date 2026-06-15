@@ -10,9 +10,9 @@ export function Home() {
       <section className="relative h-[80vh] min-h-[600px] flex items-center bg-slate-900 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBuZ28lMjBjaGFyaXR5fGVufDF8fHx8MTc4MDY2MTIzMHww&ixlib=rb-4.1.0&q=80&w=1080" 
+            src="public_folder/images/WhatsApp Image 2026-05-11 at 6.00.00 PM.jpeg" 
             alt="Children and charity" 
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-cover opacity-80"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#A6192E]/90 to-transparent" />
         </div>
@@ -84,7 +84,7 @@ export function Home() {
           <div className="flex-1 relative">
             <div className="absolute inset-0 bg-[#A6192E] rounded-3xl translate-x-4 translate-y-4 opacity-10"></div>
             <img 
-              src="https://images.unsplash.com/photo-1586726370832-3440a511e479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWxwaW5nJTIwaGFuZHMlMjBjb21wYXNzaW9ufGVufDF8fHx8MTc4MDY2MTIzMHww&ixlib=rb-4.1.0&q=80&w=1080" 
+              src="public_folder/images/WhatsApp Image 2026-05-11 at 6.00.00 PM (1).jpeg" 
               alt="Helping hands" 
               className="relative z-10 rounded-3xl w-full h-[500px] object-cover shadow-xl"
             />
