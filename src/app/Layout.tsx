@@ -42,7 +42,7 @@ export function Layout() {
             <BabudhamLogo className="w-12 h-12 group-hover:scale-105 transition-transform" variant="full-color" />
             <div>
               <h1 className="text-xl md:text-2xl font-bold text-[#A6192E] tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
-                BabuDham Trust
+                Babu Dham Trust
               </h1>
               <p className="text-xs text-slate-500 uppercase tracking-widest font-semibold hidden sm:block">Empowering Communities</p>
             </div>
