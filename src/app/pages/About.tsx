@@ -68,8 +68,12 @@ export function About() {
         
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 text-center">
-            <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 flex items-center justify-center">
-              <Users className="w-8 h-8 text-slate-400" />
+            <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 overflow-hidden">
+                <img
+                   src="public_folder/images/AP Pathak.jpg"
+                   alt="AP Pathak"
+                  className="w-full h-full object-cover"
+                   />
             </div>
             <h3 className="text-xl font-bold mb-1">Ajay Prakash Pathak</h3>
             <p className="text-[#A6192E] font-medium mb-4">Founder</p>
@@ -78,7 +82,7 @@ export function About() {
           <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 text-center">
             <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 overflow-hidden">
                 <img
-                   src="public_folder/images/WhatsApp Image 2026-05-11 at 5.59.58 PM (1).jpeg"
+                   src="public_folder/images/Lamba sir.jpg"
                    alt="Ravi Raj Lamba"
                   className="w-full h-full object-cover"
                    />
