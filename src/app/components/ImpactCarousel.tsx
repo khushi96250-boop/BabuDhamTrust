@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const slides = [
-  { id: 1, image: "/images/classroom.jpg", alt: "Students in classroom" },
-  { id: 2, image: "/images/investiture.jpg", alt: "Investiture ceremony 2024" },
-  { id: 3, image: "/images/artwork.jpg", alt: "Students displaying artwork" },
+  { id: 1, image: "public_folder/images/WhatsApp Image 2026-05-11 at 5.59.56 PM (1).jpeg", alt: "Students in classroom" },
+  { id: 2, image: "public_folder/images/WhatsApp Image 2026-05-11 at 6.00.00 PM (1).jpeg", alt: "Investiture ceremony 2024" },
+  { id: 3, image: "public_folder/images/WhatsApp Image 2026-05-11 at 5.59.57 PM (2).jpeg", alt: "Students in classroom" },
+  { id: 4, image: "public_folder/images/WhatsApp Image 2026-05-11 at 6.00.00 PM.jpeg", alt: "Students displaying artwork" },
 ];
 
 export default function ImpactCarousel() {
