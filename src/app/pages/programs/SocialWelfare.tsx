@@ -89,7 +89,7 @@ export function SocialWelfare() {
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img src="/programs/social-welfare.png" alt="Social Welfare" className="w-full h-72 object-cover" />
+            <img src="public_folder/images/WhatsApp Image 2026-05-11 at 5.59.58 PM (2).jpeg" alt="Social Welfare" className="w-full h-72 object-cover" />
           </div>
         </div>
       </div>

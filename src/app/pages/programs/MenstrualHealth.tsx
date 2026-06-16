@@ -42,7 +42,7 @@ export function MenstrualHealth() {
       {/* Hero */}
       <div className="relative bg-gradient-to-br from-[#C4434A] via-[#A83840] to-[#882C35] text-white py-24 px-6 overflow-hidden">
         <div className="absolute inset-0 opacity-10"
-          style={{ backgroundImage: "url('/programs/menstrual-health.png')", backgroundSize: "cover", backgroundPosition: "center" }} />
+          style={{ backgroundImage: "url('public_folder/images/women.webp')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative max-w-5xl mx-auto">
           <Link to="/programs" className="inline-flex items-center gap-2 text-white/70 hover:text-white text-sm mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4" /> Back to Programs
