@@ -1,5 +1,5 @@
 import React from "react";
-import { Users, Target, Map } from "lucide-react";
+// import { Users, Target, Map } from "lucide-react";
 
 export function About() {
   return (

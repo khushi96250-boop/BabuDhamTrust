@@ -39,7 +39,7 @@ export function Layout() {
       <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
-            <BabudhamLogo className="w-12 h-12 group-hover:scale-105 transition-transform" variant="full-color" />
+            <BabudhamLogo className="w-20 h-20 group-hover:scale-105 transition-transform" variant="full-color" />
             <div>
               <h1 className="text-xl md:text-2xl font-bold text-[#A6192E] tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
                 Babu Dham Trust
@@ -128,7 +128,7 @@ export function Layout() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <BabudhamLogo className="w-10 h-10" variant="white" />
+              <BabudhamLogo className="w-30 h-30" variant="white" />
               <span className="text-xl font-bold text-white tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
                 BabuDham Trust
               </span>

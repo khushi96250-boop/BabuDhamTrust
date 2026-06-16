@@ -11,7 +11,7 @@ export const BabudhamLogo: React.FC<BabudhamLogoProps> = ({
 }) => {
   return (
     <img
-      src="/logo.png.png"
+      src="public_folder/images/logo.png.png"
       alt={alt}
       className={className}
       {...props}

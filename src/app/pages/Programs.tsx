@@ -19,7 +19,7 @@ const programs: Program[] = [
     slug: "social-welfare",
     description:
       "Providing essential support and dignity to rural families through community-led assistance programs.",
-    image: "/programs/social-welfare.png",
+    image: "public_folder/images/WhatsApp Image 2026-05-11 at 6.00.01 PM.jpeg",
   },
   {
     title: "Education Support",
@@ -28,7 +28,7 @@ const programs: Program[] = [
     slug: "education-support",
     description:
       "Empowering students with essential books, learning materials, and modern educational tools.",
-    image: "/programs/education-support.png",
+    image: "public_folder/images/WhatsApp Image 2026-05-11 at 5.59.58 PM (2).jpeg",
   },
   {
     title: "Grain Support",
@@ -37,7 +37,7 @@ const programs: Program[] = [
     slug: "grain-support",
     description:
       "Ensuring no family goes hungry through monthly distribution of grains and nutritional essentials.",
-    image: "/programs/grain-support.png",
+    image: "public_folder/images/WhatsApp Image 2026-05-11 at 5.59.56 PM.jpeg",
   },
   {
     title: "Women Empowerment",
@@ -46,7 +46,7 @@ const programs: Program[] = [
     slug: "women-empowerment",
     description:
       "Providing vocational training and skill-building workshops to create sustainable livelihoods for rural women.",
-    image: "/programs/women-empowerment.png",
+    image: "",
   },
   {
     title: "Menstrual Health",
